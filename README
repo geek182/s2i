@@ -1,0 +1,7 @@
+HOW TO USE :
+
+s2i build https://github.com/geek182/s2i.git --context-dir=s2i-lighttpd/test/test-app/ lighttpd-centos7 sample-app
+
+where --context-dir is a sub-folder inside repository where artifacts resides in my case just html files.
+After that is base image we produce with "make" and "sample-app" is the final docker image. 
+
